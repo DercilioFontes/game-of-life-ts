@@ -2,6 +2,7 @@
   "type": "module",
   "scripts": {
     "start": "node --experimental-strip-types src/play.ts",
+    "build:andromeda": "cargo build --manifest-path ../andromeda/Cargo.toml --target-dir ./andromeda",
     "docker": "docker build -t andromeda . && docker run --name game-of-life-ts andromeda"
   },
   "devDependencies": {
