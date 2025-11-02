@@ -4,6 +4,8 @@
 
 <https://github.com/tryandromeda/andromeda/issues/141>
 
+Based on repo: <https://github.com/KieranP/Game-Of-Life-Implementations/tree/master/typescript>
+
 ## Run with Node
 
 `npm start`
