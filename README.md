@@ -6,13 +6,8 @@
 
 ## Run with Node
 
-`npm start`
+`node --experimental-strip-types src/play.ts`
 
-## Run with Andromeda from local repo
+## Run with Andromeda
 
-```sh
-# Check the latest version
-docker build -t andromeda .
-
-docker run --name game-of-life-ts andromeda
-```
+`andromeda run src/play.ts`
